@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* footer{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.animation
+{
+    height: 100vh;
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    position: relative;
+    overflow: hidden;
+}
+
+.indicator
+{
+    height: 100px;
+    position: absolute;
+    left:45%;
+    top: 5%;
+}
+
+.task1
+{
+    position: absolute;
+    left:47%;
+    top:25%
+}
+
+.task2
+{
+    position: absolute;
+    left:33%;
+    top:39.5%;
+}
